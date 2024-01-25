@@ -1,0 +1,66 @@
+$date
+	Sun Jan 21 12:30:30 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module leds_tb $end
+$var wire 1 ! r $end
+$var wire 1 " g $end
+$var wire 1 # b $end
+$var reg 1 $ clk $end
+$scope module UUT $end
+$var wire 1 $ clk $end
+$var wire 1 # led_blue $end
+$var wire 1 " led_green $end
+$var wire 1 ! led_red $end
+$var reg 2 % counter [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 %
+0$
+1#
+1"
+0!
+$end
+#100000
+1!
+0"
+b1 %
+1$
+#200000
+0$
+#300000
+1"
+0#
+b10 %
+1$
+#400000
+0$
+#500000
+0!
+0"
+b11 %
+1$
+#600000
+0$
+#700000
+1"
+1#
+b0 %
+1$
+#800000
+0$
+#900000
+1!
+0"
+b1 %
+1$
+#1000000
+0$
