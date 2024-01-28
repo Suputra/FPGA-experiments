@@ -1,16 +1,16 @@
 
 module leds(
     input wire clk,
-    output wire led_green,
-    output wire led_blue,
-    output wire led_red
+    output wire red,
+    output wire blue,
+    output wire green
 );
 
 reg [1:0] counter = 2'b00;
 // bitwise implementation
-assign led_red = counter[0] ^ counter[1];
-assign led_green = ~counter[0];
-assign led_blue = ~counter[1];
+assign red = counter[0] ^ counter[1];
+assign green = ~counter[0];
+assign blue = ~counter[1];
 always @(posedge clk) begin 
     // case implementation
     // case (counter)

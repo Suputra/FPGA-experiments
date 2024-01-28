@@ -14,9 +14,9 @@ wire r, g, b;
 //-- Instantiate the unit to test
 leds UUT (
            .clk(clk),
-           .led_red(r),
-           .led_green(g),
-           .led_blue(b)
+           .red(r),
+           .green(g),
+           .blue(b)
          );
 
 
