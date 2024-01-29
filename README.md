@@ -1,7 +1,8 @@
 # FPGA experiments with apio
-trying out some fpga projects:
-- read/write ethernet packets 
-- drive an hdmi/vga display
+
+Projects:
+- LEDS
+- Ethernet (in progress)
 
 useful links:
 https://github.com/FPGAwars/apio
